@@ -59,31 +59,6 @@ function is_login()
     }
 }
 
-function get_company_type()
-{
-    $database = new database();
-    global $table;
-
-    $result = get_query_data($table['company_type'], "status=1 order by sort_order asc");
-    while($rs_array=$result->fetchRow()){
-        $array[$rs_array['pkid']]=$rs_array['title'];
-    }
-
-    return $array;
-}
-
-function get_company_type_details($pkid)
-{
-    $database = new database();
-    global $table;
-
-    $result = get_query_data($table['company_type'], "pkid=$pkid");
-    $rs_array=$result->fetchRow();
-
-    return $rs_array;
-}
-
-
 if (preg_match("/admin/", $_SERVER['PHP_SELF'])) {
     if (!preg_match("/login/", $_SERVER['PHP_SELF']) && !preg_match("/logout/", $_SERVER['PHP_SELF']) && !preg_match("/index/", $_SERVER['PHP_SELF'])) {
         is_login();
@@ -108,9 +83,5 @@ $type = $_GET['type'];
 $user_username = $_SESSION['user_username'];
 $user_id = $_SESSION['user_id'];
 $user_role = $_SESSION['user_role'];
-
-//$company_type_array = array(1 => 'New Private Limited', 2 => 'New Public Limited', 3 => 'Readymade Private Limited', 4 => 'Limited Liability Partnership', 5 => 'Charity Body under SSM', 6 => 'Yayasan under SSM', 7 => 'Yayasan under JPM');
-$company_type_array = get_company_type();
-$month_array = array(1 => 'January', 2 => 'February', 3 => 'March', 4 => 'April', 5 => 'May', 6 => 'June', 7 => 'July', 8 => 'August', 9 => 'September', 10 => 'October', 11 => 'November', 12 => 'December');
 
 ?>
