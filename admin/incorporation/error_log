@@ -1,0 +1,21 @@
+[23-Feb-2017 17:23:53 Asia/Kuala_Lumpur] PHP Warning:  require_once(/home/ina2ndcom/public_html/beta/admin/include/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php): failed to open stream: No such file or directory in /home/ina2ndcom/public_html/beta/admin/include/dompdf/autoload.inc.php on line 20
+[23-Feb-2017 17:23:53 Asia/Kuala_Lumpur] PHP Fatal error:  require_once(): Failed opening required '/home/ina2ndcom/public_html/beta/admin/include/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ina2ndcom/public_html/beta/admin/include/dompdf/autoload.inc.php on line 20
+[23-Feb-2017 17:26:21 Asia/Kuala_Lumpur] PHP Warning:  require_once(/home/ina2ndcom/public_html/beta/admin/include/dompdf/lib/php-svg-lib/src/autoload.php): failed to open stream: No such file or directory in /home/ina2ndcom/public_html/beta/admin/include/dompdf/autoload.inc.php on line 21
+[23-Feb-2017 17:26:21 Asia/Kuala_Lumpur] PHP Fatal error:  require_once(): Failed opening required '/home/ina2ndcom/public_html/beta/admin/include/dompdf/lib/php-svg-lib/src/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ina2ndcom/public_html/beta/admin/include/dompdf/autoload.inc.php on line 21
+[23-Feb-2017 17:27:20 Asia/Kuala_Lumpur] PHP Warning:  file_get_contents(/beta/admin/incorporation/export_pdf.php): failed to open stream: No such file or directory in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 21
+[23-Feb-2017 17:28:58 Asia/Kuala_Lumpur] PHP Warning:  Missing argument 1 for Dompdf\Dompdf::loadHtml(), called in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 49 and defined in /home/ina2ndcom/public_html/beta/admin/include/dompdf/src/Dompdf.php on line 417
+[23-Feb-2017 17:28:58 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: str in /home/ina2ndcom/public_html/beta/admin/include/dompdf/src/Dompdf.php on line 424
+[23-Feb-2017 17:28:58 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: str in /home/ina2ndcom/public_html/beta/admin/include/dompdf/src/Dompdf.php on line 428
+[23-Feb-2017 09:41:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 196
+[23-Feb-2017 17:43:14 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: full_path in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[23-Feb-2017 17:43:14 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: img_url in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[23-Feb-2017 17:43:41 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: full_path in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[23-Feb-2017 17:43:41 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: img_url in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[23-Feb-2017 17:43:47 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: full_path in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[23-Feb-2017 17:43:47 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: img_url in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[24-Feb-2017 09:46:54 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: full_path in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[24-Feb-2017 09:46:54 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: img_url in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[24-Feb-2017 09:47:29 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: img_url in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[24-Feb-2017 09:47:42 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: img_url in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 179
+[24-Feb-2017 01:49:59 UTC] PHP Warning:  ini_get() expects exactly 1 parameter, 2 given in /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php on line 2
+[24-Feb-2017 01:49:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ina2ndcom/public_html/beta/admin/incorporation/export_pdf.php:2) in /home/ina2ndcom/public_html/beta/admin/config.php on line 2
